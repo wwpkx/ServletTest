@@ -7,26 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c31087-e01e-4283-91c0-1f1e107e3b8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/RequestDispatcher/RequestDispatcherDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/ServletConfig/ServletConfigDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/ServletContext/ServletContextDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/ServletContext/ServletContextDemo2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/ServletContext/res/ResDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/ServletContext/res/ResDemo2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/ServletContext/res/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/servlet/GenericServletDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wwp/servlet/HttpServletDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ServletTest_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ServletTest_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wwp/header/HeaderDemo.java" afterPath="$PROJECT_DIR$/src/com/wwp/header/HeaderDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wwp/ServletConfig/ServletConfigDemo.java" afterPath="$PROJECT_DIR$/src/com/wwp/ServletConfig/ServletConfigDemo.java" />
     </list>
     <ignored path="ServletTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +55,8 @@
       <file leaf-file-name="ServletConfigDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wwp/ServletConfig/ServletConfigDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -935,12 +918,20 @@
       <updated>1484997919236</updated>
       <workItem from="1484997921794" duration="798000" />
       <workItem from="1484998775753" duration="4376000" />
-      <workItem from="1485004511494" duration="3609000" />
+      <workItem from="1485004511494" duration="3775000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1485008167190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485008167190</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8783000" />
+    <option name="totallyTimeSpent" value="8949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -994,6 +985,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1086,6 +1081,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,8 +1195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wwp/ServletConfig/ServletConfigDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
