@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ServletTest:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/ServletTest_war_exploded</output-path>
+    <output-path>D:/devtool/apache-tomcat-6.0.45/webapps/ServletTest</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

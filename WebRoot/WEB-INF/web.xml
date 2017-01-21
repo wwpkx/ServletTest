@@ -3,21 +3,102 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <!-- 欢迎页 -->
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 
+    <!-- 全局配置信息 -->
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://localhost:3306/test</param-value>
+    </context-param>
+
 	<servlet>
-		<description>This is the description of my J2EE component</description>
-		<display-name>This is the display name of my J2EE component</display-name>
 		<servlet-name>HeaderDemo</servlet-name>
 		<servlet-class>com.wwp.header.HeaderDemo</servlet-class>
 	</servlet>
-
 	<servlet-mapping>
 		<servlet-name>HeaderDemo</servlet-name>
 		<url-pattern>/HeaderDemo</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>ServletContextDemo1</servlet-name>
+		<servlet-class>com.wwp.ServletContext.ServletContextDemo1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletContextDemo1</servlet-name>
+		<url-pattern>/ServletContext/ServletContextDemo1</url-pattern>
+	</servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletContextDemo2</servlet-name>
+        <servlet-class>com.wwp.ServletContext.ServletContextDemo2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo2</servlet-name>
+        <url-pattern>/ServletContext/ServletContextDemo2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResDemo</servlet-name>
+        <servlet-class>com.wwp.ServletContext.res.ResDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResDemo</servlet-name>
+        <url-pattern>/ServletContext/res/ResDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResDemo2</servlet-name>
+        <servlet-class>com.wwp.ServletContext.res.ResDemo2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResDemo2</servlet-name>
+        <url-pattern>/ServletContext/res/ResDemo2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletConfigDemo</servlet-name>
+        <servlet-class>com.wwp.ServletConfig.ServletConfigDemo</servlet-class>
+        <init-param>
+            <param-name>xxx</param-name>
+            <param-value>yyy</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>flx</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>123</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>charset</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql://localhost:3306/test</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletConfigDemo</servlet-name>
+        <url-pattern>/ServletConfig/ServletConfigDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestDispatcherDemo</servlet-name>
+        <servlet-class>com.wwp.RequestDispatcher.RequestDispatcherDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestDispatcherDemo</servlet-name>
+        <url-pattern>/RequestDispatcher/RequestDispatcherDemo</url-pattern>
+    </servlet-mapping>
 
 </web-app>
